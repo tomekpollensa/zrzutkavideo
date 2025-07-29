@@ -1,0 +1,10 @@
+1. Skopiuj pliki `firebase.js` oraz `pages/login.js` do odpowiednich lokalizacji w repozytorium.
+2. W pliku `pages/index.js` dodaj import Link z next/link i przycisk:
+
+   import Link from 'next/link';
+
+   <Link href="/login">
+     <a className="text-blue-600 underline">Zaloguj się</a>
+   </Link>
+
+3. Wgraj zmiany na GitHubie — Vercel automatycznie wdroży nową wersję.
